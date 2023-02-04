@@ -11,8 +11,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                poppins: ['Poppins', 'sans-serif'],
-                sporting: ['Sporting Grotesque', 'cursive'],
+                poppins: ['Poppins', 'inter'],
+                sporting: ['Sporting Grotesque', 'inter'],
             },
         },
     },

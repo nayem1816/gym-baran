@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Header from '../components/Header/Header';
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div className="">
             <Head>
                 <title>Gym Baran</title>
                 <meta
@@ -12,15 +13,7 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <header>
-                <h1>Gym Baran</h1>
-            </header>
-            <main>
-                <h2>
-                    A gym is a place where people go to exercise and improve
-                    their physical fitness.
-                </h2>
-            </main>
+            <main></main>
         </div>
     );
 }
