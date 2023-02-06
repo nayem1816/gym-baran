@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import HealthyInSide from '../components/Main/HealthyInSide/HealthyInSide';
 import Hero from '../components/Main/Hero/Hero';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             </Head>
             <main>
                 <Hero />
+                <HealthyInSide />
             </main>
         </div>
     );
