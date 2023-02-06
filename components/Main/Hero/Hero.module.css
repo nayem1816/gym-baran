@@ -1,0 +1,40 @@
+.heroHeading {
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 73px;
+    letter-spacing: 0.01em;
+    color: #262524;
+}
+
+.heroText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    opacity: 0.6;
+}
+
+.iconText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    opacity: 0.6;
+}
+
+.iconRound {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

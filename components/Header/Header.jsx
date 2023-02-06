@@ -75,7 +75,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <Link
-                                    className="md:mx-5 md:px-5 py-2 block hover:text-white-500 btn text-white"
+                                    className="md:mx-5 md:px-5 py-2 block hover:text-white-500 btn text-white bg-secondary"
                                     href="/login"
                                 >
                                     Login
