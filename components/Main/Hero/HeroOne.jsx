@@ -29,9 +29,9 @@ const HeroOne = () => {
                     <span>Learn More</span>
                 </button>
             </div>
-            <div className="brands mt-7">
+            <div className="brands mt-10">
                 <p className="font-poppins">Brands: </p>
-                <div className="brand flex items-center gap-8 mt-4">
+                <div className="brand flex items-center gap-8 mt-5">
                     <Image
                         src="/logos/nike.png"
                         width={50}

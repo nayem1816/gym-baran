@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import BestFullBody from '../components/Main/BestFullBody/BestFullBody';
 import HealthyInSide from '../components/Main/HealthyInSide/HealthyInSide';
 import Hero from '../components/Main/Hero/Hero';
 import StaticBar from '../components/Main/StaticBar/StaticBar';
@@ -18,6 +19,7 @@ export default function Home() {
                 <Hero />
                 <HealthyInSide />
                 <StaticBar />
+                <BestFullBody />
             </main>
         </div>
     );
