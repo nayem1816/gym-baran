@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import HealthyInSide from '../components/Main/HealthyInSide/HealthyInSide';
 import Hero from '../components/Main/Hero/Hero';
+import StaticBar from '../components/Main/StaticBar/StaticBar';
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <main>
                 <Hero />
                 <HealthyInSide />
+                <StaticBar />
             </main>
         </div>
     );

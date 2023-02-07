@@ -3,7 +3,7 @@ import React from 'react';
 const HealthyInSide = () => {
     return (
         <div className="container mx-auto mt-20">
-            <div className="grid lg:grid-cols-2 grid-cols-1">
+            <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
                 <div className="title-section">
                     <h2
                         style={{ lineHeight: '73px', color: '#262524' }}
