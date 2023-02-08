@@ -16,7 +16,7 @@ const StaticBar = () => {
                 className="rounded-3xl"
             >
                 <div className="grid lg:grid-cols-3 grid-cols-1">
-                    <div className="part-one flex gap-5 items-center py-10 px-14">
+                    <div className="part-one flex gap-5 items-center py-10 px-4 lg:px-14">
                         <div className="icon flex items-center justify-center w-24 h-24">
                             <div
                                 style={{
@@ -24,7 +24,7 @@ const StaticBar = () => {
                                     opacity: '.2',
                                     backdropFilter: 'blur(32px)',
                                 }}
-                                className="relative rounded-3xl w-24 h-24"
+                                className="relative rounded-3xl w-20 h-20 lg:w-24 lg:h-24"
                             ></div>
                             <Image
                                 className="absolute flex items-center justify-center"
@@ -35,7 +35,7 @@ const StaticBar = () => {
                             />
                         </div>
                         <div className="text">
-                            <h2 className="text-white font-bold font-poppins leading-7 tracking-wide text-xl">
+                            <h2 className="text-white font-bold font-poppins leading-7 tracking-wide text-base md:text-xl">
                                 Get that 11 line <br />
                                 in 30 days
                             </h2>
@@ -47,7 +47,7 @@ const StaticBar = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="part-one flex lg:gap-5 gap-2 items-center lg:py-10 py-2 px-14">
+                    <div className="part-one flex gap-5 items-center lg:py-10 py-2 px-4 lg:px-14">
                         <div className="icon flex items-center justify-center w-24 h-24">
                             <div
                                 style={{
@@ -55,7 +55,7 @@ const StaticBar = () => {
                                     opacity: '.2',
                                     backdropFilter: 'blur(32px)',
                                 }}
-                                className="relative rounded-3xl w-24 h-24"
+                                className="relative rounded-3xl w-20 h-20 lg:w-24 lg:h-24"
                             ></div>
                             <Image
                                 className="absolute flex items-center justify-center"
@@ -66,7 +66,7 @@ const StaticBar = () => {
                             />
                         </div>
                         <div className="text">
-                            <h2 className="text-white font-bold font-poppins leading-7 tracking-wide text-xl">
+                            <h2 className="text-white font-bold font-poppins leading-7 tracking-wide text-base md:text-xl">
                                 14 Days
                                 <br />
                                 sherd challenge
@@ -79,7 +79,7 @@ const StaticBar = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="part-one flex lg:gap-5 gap-3 items-center py-10 px-14">
+                    <div className="part-one flex lg:gap-5 gap-3 items-center py-10 px-4 lg:px-14">
                         <div className="icon flex items-center justify-center w-24 h-24">
                             <div
                                 style={{
@@ -87,7 +87,7 @@ const StaticBar = () => {
                                     opacity: '.2',
                                     backdropFilter: 'blur(32px)',
                                 }}
-                                className="relative rounded-3xl w-24 h-24"
+                                className="relative rounded-3xl w-20 h-20 lg:w-24 lg:h-24"
                             ></div>
                             <Image
                                 className="absolute flex items-center justify-center"
@@ -98,7 +98,7 @@ const StaticBar = () => {
                             />
                         </div>
                         <div className="text">
-                            <h2 className="text-white font-bold font-poppins leading-7 tracking-wide text-xl">
+                            <h2 className="text-white font-bold font-poppins leading-7 tracking-wide text-base md:text-xl">
                                 Get flat belly <br />
                                 in 30 days
                             </h2>

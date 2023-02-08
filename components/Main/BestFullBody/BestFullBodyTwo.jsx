@@ -1,12 +1,13 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
+import styles from './BestFillBody.module.css';
 
 const BestFullBodyTwo = () => {
     return (
         <div>
             <h2
-                style={{ lineHeight: '73px', color: '#262524' }}
-                className="text-5xl font-sporting"
+                style={{ color: '#262524' }}
+                className={`${styles.heroHeading} leading-normal lg:leading-loose`}
             >
                 Best full body <br /> workout to lose fat
             </h2>

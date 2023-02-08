@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './HealthyInSide.module.css';
 
 const HealthyInSide = () => {
     return (
@@ -6,14 +7,14 @@ const HealthyInSide = () => {
             <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
                 <div className="title-section">
                     <h2
-                        style={{ lineHeight: '73px', color: '#262524' }}
-                        className="font-sporting text-5xl"
+                        style={{ color: '#262524' }}
+                        className={`${styles.heroHeading}`}
                     >
                         Healthy in side <br />
                         fresh out side
                     </h2>
                 </div>
-                <div className="text-body-section">
+                <div className="text-body-section mt-5 lg:mt-0">
                     <p className="heroText">
                         Exercise is a very important need for our body. Health
                         and fitness will be obtained if you can do regular
