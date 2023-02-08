@@ -5,6 +5,7 @@ import fullEllipseTwo from '/public/others/full-body-ellipes-2.png';
 import vector35 from '/public/others/Vector35.png';
 import fullBody from '/public/best-full-body-img.png';
 import icon1 from '/public/icons/dancer-motion.png';
+import styles from './BestFillBody.module.css';
 
 const BestFullBodyOne = () => {
     return (
@@ -14,18 +15,15 @@ const BestFullBodyOne = () => {
                     <div className="justify-self-center flex items-end">
                         <div className="relative z-30">
                             <Image
+                                className={styles.fullBody}
                                 src={fullBody}
-                                width={416}
-                                height={496}
                                 alt="ellipse-2"
                             />
                         </div>
                         <div className="absolute z-20">
                             <Image
-                                style={{ marginLeft: '-15px' }}
+                                className={styles.vector35}
                                 src={vector35}
-                                width={427}
-                                height={323}
                                 alt="ellipse-1"
                             />
                         </div>
@@ -34,27 +32,24 @@ const BestFullBodyOne = () => {
                             className="absolute z-10"
                         >
                             <Image
-                                className="ml-8 mb-2"
+                                className={styles.fullEllipseTwo}
                                 src={fullEllipseTwo}
-                                width={393}
-                                height={453}
                                 alt="ellipse-2"
                             />
                         </div>
                         <div className="absolute z-0">
                             <Image
-                                className="mb-8 ml-8"
+                                className={styles.heroEllipse}
+                                // className="mb-8 ml-8"
                                 src={heroEllipse}
-                                width={434}
-                                height={434}
                                 alt="ellipse-1"
                             />
                         </div>
                     </div>
                 </div>
-                <div className="absolute z-50 mt-14">
+                <div className={`${styles.bodyTop} absolute z-50 mt-14`}>
                     <div className="grid grid-cols-2">
-                        <div className="part-two ml-36">
+                        <div className={`${styles.partOne} ml-36`}>
                             <div
                                 style={{
                                     background:
@@ -70,7 +65,9 @@ const BestFullBodyOne = () => {
                                 />
                             </div>
                         </div>
-                        <div className="part-two flex justify-end mt-40">
+                        <div
+                            className={`${styles.partTwo} flex justify-end mt-40`}
+                        >
                             <div
                                 style={{
                                     background:
@@ -86,15 +83,15 @@ const BestFullBodyOne = () => {
                                 />
                             </div>
                         </div>
-                        <div className="part-one mt-14 mr-20">
-                            <div className="bg-white flex items-center rounded-lg h-20 w-52 float-left">
-                                <div className="icon-round flex items-center py-3 px-6 gap-5">
+                        <div className={`${styles.partThree} mt-14 mr-20`}>
+                            <div className="bg-white flex items-center rounded-lg h-20 w-44 md:w-52 float-left">
+                                <div className="icon-round flex items-center py-3 px-3 md:px-6 gap-5">
                                     <div
                                         style={{
                                             background:
                                                 'linear-gradient(45.98deg, #5478EF 19.69%, #D6DFFF 92.63%)',
                                         }}
-                                        className={`py-3 px-5 iconRound`}
+                                        className={`py-3 px-3 md:px-5 iconRound`}
                                     >
                                         <Image
                                             src={icon1}

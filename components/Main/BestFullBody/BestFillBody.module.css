@@ -1,0 +1,54 @@
+.fullBody {
+    width: 416px;
+    height: 496px;
+}
+.vector35 {
+    width: 427px;
+    height: 323px;
+    margin-left: -15px;
+}
+.fullEllipseTwo {
+    width: 393px;
+    height: 453px;
+    margin-left: 32px;
+    margin-bottom: 8px;
+}
+.heroEllipse {
+    width: 434px;
+    height: 434px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 550px) {
+    .fullBody {
+        width: 240.53px;
+        height: 286.78px;
+    }
+    .vector35 {
+        width: 239.42px;
+        height: 177.73px;
+    }
+    .fullEllipseTwo {
+        width: 220.29px;
+        height: 253.91px;
+    }
+    .heroEllipse {
+        width: 220.29px;
+        height: 220.29px;
+    }
+    .bodyTop {
+        margin-top: 30px;
+    }
+    .partOne {
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .partTwo {
+        margin-top: 64px;
+    }
+    .partThree {
+        margin-top: 35px;
+        margin-right: 10px;
+    }
+}

@@ -38,3 +38,143 @@
     align-items: center;
     justify-content: center;
 }
+/* Part One start */
+.brandLogo1 {
+    width: 50px;
+    height: 30px;
+}
+.brandLogo2 {
+    width: 50px;
+    height: 40px;
+}
+.brandLogo3 {
+    width: 60px;
+    height: 45px;
+}
+.brandLogo4 {
+    width: 100px;
+    height: 60px;
+}
+/* Part One end */
+
+/* image-combine start */
+
+.heroImage {
+    width: 358px;
+    height: 580px;
+}
+.bgImage {
+    width: 427px;
+    height: 323px;
+    margin-left: 12px;
+}
+.heroEllipseTwo {
+    width: 393px;
+    height: 453px;
+}
+.heroEllipse {
+    width: 434px;
+    height: 434px;
+}
+
+/* image-combine end */
+
+.allPart {
+    height: 520px;
+    margin-top: 50px;
+    gap: 170px;
+}
+.partOne {
+}
+.partTwo {
+    margin-right: 40px;
+}
+.partThree {
+    margin-left: 40px;
+}
+.partFour {
+}
+
+/* responsive design */
+
+@media (max-width: 768px) {
+    .heroHeading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .heroText {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .iconText {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .iconRound {
+        width: 45px;
+        height: 45px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 550px) {
+    .brandLogo1 {
+        width: 40px;
+        height: 30px;
+    }
+    .brandLogo2 {
+        width: 40px;
+        height: 40px;
+    }
+    .brandLogo3 {
+        width: 50px;
+        height: 45px;
+    }
+    .brandLogo4 {
+        width: 80px;
+        height: 50px;
+    }
+    .heroImage {
+        width: 209.86px;
+        height: 340px;
+    }
+    .bgImage {
+        width: 250.31px;
+        height: 189.34px;
+        margin-left: 12px;
+    }
+    .heroEllipseTwo {
+        width: 230.8px;
+        height: 266.02px;
+    }
+    .heroEllipse {
+        width: 254.41px;
+        height: 254.41px;
+    }
+    .allPart {
+        height: 300px;
+        margin-top: 50px;
+        gap: 50px;
+    }
+    .partOne {
+        margin-left: 20px;
+    }
+    .partFour {
+        margin-right: 20px;
+        margin-left: -10px;
+    }
+}
+@media screen and (min-device-width: 1100px) and (max-device-width: 2400px) {
+    /* .partOne {
+        margin-left: -70px;
+    }
+    .partTwo {
+        margin-left: 128px;
+    }
+    .partThree {
+        margin-left: 40px;
+        margin-top: 256px;
+    }
+    .partFour {
+        margin-top: 256px;
+        margin-left: 32px;
+    } */
+}
