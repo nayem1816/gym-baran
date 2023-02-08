@@ -13,7 +13,7 @@ const HeroTwo = () => {
             <div className="flex justify-center">
                 <div className="grid relative px-5 md:px-0">
                     <div className="justify-self-center flex items-end">
-                        <div className="relative z-30 ml-16">
+                        <div className="relative z-30 lg:ml-16 ml-10">
                             <Image
                                 className={`${styles.heroImage}`}
                                 src={heroImage}
